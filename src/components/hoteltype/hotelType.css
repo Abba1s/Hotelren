@@ -1,0 +1,30 @@
+
+
+.hotelTypes{
+    margin-top: 1rem;
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    flex: 1;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.hotelItem {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.hotelItem > img{
+
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px 5px 0px 0px;
+
+}
+
+.hotelTitles > h4{
+    font-size: smaller;
+    font-weight: 500;
+}

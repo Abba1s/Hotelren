@@ -1,0 +1,21 @@
+footer {
+  padding: 2rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footerContent {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerItem {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

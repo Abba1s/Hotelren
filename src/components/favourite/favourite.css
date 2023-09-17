@@ -1,0 +1,36 @@
+
+.favourites{
+    margin-top: 1rem;
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    flex: 1;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.favItem {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.favItem > img{
+
+    width: 15rem;
+  object-fit: cover;
+  height: 16rem;
+
+}
+
+.favTitles{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.favTitles > h4{
+    font-size: smaller;
+    font-weight: 500;
+}
+

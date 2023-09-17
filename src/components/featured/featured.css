@@ -1,0 +1,29 @@
+.featured {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1024px;
+  flex-wrap: wrap;
+}
+
+.featuredItem{
+    z-index: 1;
+    position: relative;
+
+}
+.featuredImg {
+  /* width: 100%; */
+  width: 20rem;
+  object-fit: cover;
+  height: 18rem;
+  border-radius: 5px;
+}
+
+.featuredDesc {
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  font-size: larger;
+  font-weight: bold;
+  left: 20px;
+}

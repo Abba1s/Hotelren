@@ -1,0 +1,74 @@
+.hotel{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0rem;
+}
+
+.hotelWrrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.hotelHeadings{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.blue{
+    color: blue;
+}
+
+.green{
+
+    color: green;
+}
+
+.reserveBtn{
+    color: white;
+    /* background-color: rgb(24, 24, 87); */
+    background-color: rgb(91, 120, 252);
+    border: none;
+    padding: 10px 30px;
+    flex: none;
+    cursor: pointer;
+}
+
+.hotelDesciption{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imageContainer > img{
+    /* width:100% ; */
+    width: 33%;
+    height: 45%;
+    object-fit: cover;
+}
+
+.rightside{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1rem;
+    width: 190%;
+}
+
+.card{
+    width: 60%;
+    background-color: lightblue;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}

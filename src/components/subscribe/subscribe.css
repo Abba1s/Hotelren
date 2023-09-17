@@ -1,0 +1,38 @@
+.subscribe{
+    width: 100%;
+    background-color: rgb(24, 24, 87);
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.subscribeTitles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.subscribeInput > input{
+    padding: 1rem;
+    outline:none;
+    border: none;
+    border-radius: 5px;
+    width: 15rem ;
+}
+
+
+.subscribeInput > button{
+    color: white;
+    background-color: rgb(91, 120, 252);
+    border: none;
+    padding: 1rem;
+    flex: none;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 5px;
+}
